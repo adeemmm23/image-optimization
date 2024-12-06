@@ -3,7 +3,7 @@ export default function Page() {
     <>
       <div className="flex items-start gap-2 flex-col my-3">
         <h1 className="text-2xl font-bold">
-          Lazy image, Le HTML a une optimisation pour le chargement paresseux
+          Lazy image Le HTML a une optimisation pour le chargement paresseux
         </h1>
         <p className="text-md">
           Cela aide à ne charger que les images qui sont dans la fenêtre

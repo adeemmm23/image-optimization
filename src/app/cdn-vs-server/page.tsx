@@ -2,10 +2,10 @@ export default function Page() {
   return (
     <>
       <div className="flex items-start gap-2 flex-col my-3">
-        <h1 className="text-2xl font-bold">Svg: Scalable Vector Graphics</h1>
+        <h1 className="text-2xl font-bold">Svg Scalable Vector Graphics</h1>
         <p className="text-md">
           Parfois, vous devez utiliser des images vectorielles au lieu dimages
-          matricielles.
+          matricielles
         </p>
       </div>
       <div className="flex items-center gap-2 flex-col mb-3">

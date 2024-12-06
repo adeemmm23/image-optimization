@@ -5,7 +5,7 @@ export default function Page() {
         <h1 className="text-2xl font-bold">Picture Element Responsive</h1>
         <p className="text-md">
           Picture Element est une balise HTML qui permet de gérer la
-          responsivité des images.
+          responsivité des images
         </p>
       </div>
       <div className="flex items-center gap-2 flex-col mb-3">
