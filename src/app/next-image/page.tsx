@@ -30,8 +30,8 @@ function ImagePNG() {
         className="rounded"
       />
       <div className="flex justify-between w-full">
-        <p className="text-sm mt-2">PNG: Portable Network Graphics</p>
-        <p className="text-sm mt-2">24.23 ms</p>
+        <p className="text-sm mt-2">Image component</p>
+        <p className="text-sm mt-2">15.19 ms</p>
       </div>
     </div>
   );
