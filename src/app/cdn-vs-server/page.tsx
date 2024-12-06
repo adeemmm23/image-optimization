@@ -4,7 +4,7 @@ export default function Page() {
       <div className="flex items-start gap-2 flex-col my-3">
         <h1 className="text-2xl font-bold">Svg: Scalable Vector Graphics</h1>
         <p className="text-md">
-          Parfois, vous devez utiliser des images vectorielles au lieu d'images
+          Parfois, vous devez utiliser des images vectorielles au lieu dimages
           matricielles.
         </p>
       </div>
