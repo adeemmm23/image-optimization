@@ -25,6 +25,8 @@ function ImagePNG() {
       <Image
         src="https://i.ibb.co/wLQ9rK4/logo.png"
         alt="PNG"
+        width={300}
+        height={300}
         className="rounded"
       />
       <div className="flex justify-between w-full">
