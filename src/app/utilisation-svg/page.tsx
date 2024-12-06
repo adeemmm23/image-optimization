@@ -155,7 +155,7 @@ function ImageSVG() {
           width="9.31895"
           height="9.31895"
           fill="#FBFBFB"
-          fill-opacity="0.2"
+          fillOpacity="0.2"
         />
         <rect
           x="157.151"
@@ -163,7 +163,7 @@ function ImageSVG() {
           width="9.31895"
           height="9.31895"
           fill="#FBFBFB"
-          fill-opacity="0.5"
+          fillOpacity="0.5"
         />
         <rect
           x="147.833"

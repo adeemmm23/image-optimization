@@ -10,7 +10,6 @@ export default function Navigation() {
         <NavigationItem text="Picture Element" href="/picture-element" />
         <NavigationItem text="Utilisation SVG" href="/utilisation-svg" />
         <NavigationItem text="CDN vs Serveur" href="/cdn-vs-serveur" />
-        <NavigationItem text="Algorithmes" href="#" />
         <NavigationItem text="Image NextJs" href="/next-image" />
       </nav>
     </div>

@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${inter.className} antialiased min-h-screen flex items-center p-4 flex-col`}
+        className={`${inter.className} antialiased min-h-screen flex items-center p-4 flex-col h-screen`}
       >
         <header className="flex items-center justify-center h-24 w-full flex-col gap-4">
           <Link href="/">
