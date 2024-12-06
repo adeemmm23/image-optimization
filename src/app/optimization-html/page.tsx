@@ -7,7 +7,7 @@ export default function Page() {
         </h1>
         <p className="text-md">
           Cela aide à ne charger que les images qui sont dans la fenêtre
-          d'affichage
+          daffichage
         </p>
       </div>
       <div className="flex items-center gap-2 flex-col mb-3">
