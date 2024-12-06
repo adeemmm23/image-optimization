@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import SVGIMG from "../../public/logo.svg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,7 +21,9 @@ export default function RootLayout({
         className={`${inter.className} antialiased min-h-screen flex items-center p-4 flex-col`}
       >
         <header className="flex items-center justify-center h-24 w-full flex-col gap-4">
-          <Image src={SVGIMG} alt="Logo" className="w-32" />
+          <Link href="/">
+            <Image src={SVGIMG} alt="Logo" className="w-32" />
+          </Link>
         </header>
         <main className="h-full flex items-center flex-col max-w-xl w-full">
           {children}

@@ -8,8 +8,8 @@ export default function Navigation() {
         <NavigationItem text="Type des images" href="/images-types" />
         <NavigationItem text="Optimisation HTML" href="/optimization-html" />
         <NavigationItem text="Picture Element" href="/picture-element" />
-        <NavigationItem text="Utilisation SVG" href="#" />
-        <NavigationItem text="CDN vs Serveur" href="#" />
+        <NavigationItem text="Utilisation SVG" href="/utilisation-svg" />
+        <NavigationItem text="CDN vs Serveur" href="/cdn-vs-serveur" />
         <NavigationItem text="Algorithmes" href="#" />
         <NavigationItem text="Image NextJs" href="#" />
       </nav>
@@ -27,7 +27,7 @@ function NavigationItem({ text, href }: NavigationItemProps) {
     <Button
       variant={"ghost"}
       asChild
-      className="size-44 flex justify-center items-center"
+      className="size-44 flex justify-center items-center ring-2 ring-zinc-900/30"
     >
       <Link href={href}>{text}</Link>
     </Button>
