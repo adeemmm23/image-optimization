@@ -3,10 +3,12 @@ export default function Page() {
     <>
       <div className="flex items-start gap-2 flex-col my-3">
         <h1 className="text-2xl font-bold">
-          This a comparisont between different images types and loadtime
+          Ceci est une comparaison entre différents types d'images et le temps
+          de chargement
         </h1>
         <p className="text-md">
-          We have 3 types of images: JPG, PNG and WebP. We will compare them
+          Nous avons 3 types d'images : JPG, PNG et WebP. Nous allons les
+          comparer
         </p>
       </div>
       <div className="flex items-center gap-2 flex-col mb-3">
